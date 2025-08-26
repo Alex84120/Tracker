@@ -1,2 +1,8 @@
-const Nutrition = () => <div className="p-4">🍽️ Nutrition</div>;
-export default Nutrition;
+export default function Nutrition() {
+  return (
+    <div className="p-6">
+      <h1 className="text-xl font-bold">🥗 Nutrition</h1>
+      <p>Calories, écarts et shakes protéinés.</p>
+    </div>
+  );
+}
